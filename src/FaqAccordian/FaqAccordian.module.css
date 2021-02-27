@@ -1,0 +1,15 @@
+
+
+
+.Background {
+    background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    height: 100%;
+}
+
+.blue-text {
+    color: hsl(238, 29%, 16%);
+}
+
+.red-text {
+    color: hsl(14, 88%, 65%);
+}
