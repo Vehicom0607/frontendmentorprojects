@@ -8,8 +8,8 @@ class FaqAccordian extends Component {
         return (
             <div className={classes.Background}>
                 <Container>
-                    <h2 className="display-4">FAQ</h2>
                     <Jumbotron>
+                        <h2 className="display-4">FAQ</h2>
 
                     </Jumbotron>
                 </Container>

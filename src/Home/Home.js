@@ -9,10 +9,10 @@ const projectList = [
         solutionlink: '/FAQ-ACCORDION'
     },
     {
-        name: 'PLACEHOLDER',
-        description: 'PLACEHOLDER',
-        link: 'https://www.frontendmentor.io/',
-        solutionlink: '/'
+        name: 'PROFILE CARD',
+        description: 'Your challenge is to build out this profile card component and get it looking as close to the design as possible.',
+        link: 'https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-component-4AnInwj0Y',
+        solutionlink: '/profile-card'
     },
     {
         name: 'PLACEHOLDER',
