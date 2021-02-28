@@ -23,12 +23,12 @@ const ProfileCard = () => {
                             <Card.Text className={classes.TextMuted}>Followers</Card.Text>
                         </Col>
                         <Col>
-                            <Card.Text className={classes.TextBold + " " + classes.FooterP}>80K</Card.Text>
-                            <Card.Text className={classes.TextMuted}>Followers</Card.Text>
+                            <Card.Text className={classes.TextBold + " " + classes.FooterP}>803K</Card.Text>
+                            <Card.Text className={classes.TextMuted}>Likes</Card.Text>
                         </Col>
                         <Col>
-                            <Card.Text className={classes.TextBold + " " + classes.FooterP}>80K</Card.Text>
-                            <Card.Text className={classes.TextMuted}>Followers</Card.Text>
+                            <Card.Text className={classes.TextBold + " " + classes.FooterP}>1.4K</Card.Text>
+                            <Card.Text className={classes.TextMuted}>Photos</Card.Text>
                         </Col>
                     </Row>
                 </Card.Footer>
