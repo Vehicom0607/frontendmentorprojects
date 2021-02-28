@@ -6,8 +6,8 @@ const ProfileCard = () => {
     return (
         <Container className="py-5">
             <Card className={classes.ProfileCard + " mx-auto"} >
-                <Card.Img className={classes.ProfileCardBackgroundImage} variant="top" src="/ProfileCard/bg-pattern-card.svg" />
-                <Card.Img className={classes.ProfileCardImage} src={'/ProfileCard/image-victor.jpg'}/>
+                <Card.Img className={classes.ProfileCardBackgroundImage} alt="Background Image" variant="top" src="/ProfileCard/bg-pattern-card.svg" />
+                <Card.Img className={classes.ProfileCardImage} alt="User Image" src={'/ProfileCard/image-victor.jpg'}/>
                 <Card.Body className={"text-center " + classes.ProfileCardBody}>
                     <Card.Text className={classes.TextBold + " mb-0"}>
                         Victor Crest <span className={classes.TextMuted + " pl-1"}>26</span>
