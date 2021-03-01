@@ -15,7 +15,7 @@ const setBackground = (pathname) => {
 function App() {
     let bgStyle;
     bgStyle = setBackground(useLocation().pathname)
-    console.log(bgStyle)
+
 
   return (
       <div style={bgStyle}>
