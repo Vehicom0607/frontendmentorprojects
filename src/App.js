@@ -15,6 +15,7 @@ const setBackground = (pathname) => {
 function App() {
     let bgStyle = setBackground(useLocation().pathname)
 
+    // don't want to work today
 
   return (
       <div style={bgStyle}>
