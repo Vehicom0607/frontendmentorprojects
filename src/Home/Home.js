@@ -6,7 +6,7 @@ const projectList = [
         name: 'FAQ Accordion Card',
         description: 'Your challenge is to build out this FAQ accordion card and get it looking as close to the design as possible.',
         link: 'https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam',
-        solutionlink: '/FAQ-ACCORDION'
+        solutionlink: '/faq-accordion'
     },
     {
         name: 'PROFILE CARD',
