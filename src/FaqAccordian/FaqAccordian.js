@@ -69,7 +69,7 @@ class FaqAccordian extends Component {
                     <div className={classes.TextCard}>
                         <p className={classes.DarkText + " " + classes.FAQ}>FAQ</p>
                         <Accordion>
-                            <div onClick={() => this.changeActiveHandler(0)} className={classes.AccordionHeader} >How many team members can I invite?</div>
+                            <Accordion.Toggle onClick={() => this.changeActiveHandler(0)} className={classes.AccordionHeader} >How many team members can I invite?</Accordion.Toggle>
                             {q0}
                             <Accordion.Toggle onClick={() => this.changeActiveHandler(1)} className={classes.AccordionHeader} eventKey="1">What is the maximum file upload size?</Accordion.Toggle>
                             {q1}
