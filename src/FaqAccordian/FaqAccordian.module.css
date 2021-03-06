@@ -82,16 +82,59 @@
 
 }
 
-@media (max-width: 450px) {
-    .ImageCard {
-        background-image: url("./Images/illustration-woman-online-mobile.svg"), url("./Images/bg-pattern-mobile.svg");
-    }
-}
 
 .FaqText {
     font-family: 'Kumbh Sans', sans-serif;
     color: #4a4b5e;
     font-size: 12px;
     line-height: 20px;
+
+}
+.MobileImage {
+    display: none
+}
+.MobileBg {
+    display: none;
+}
+
+@media (max-width: 450px) {
+    .AccordionHeader::after {
+        right: 20px;
+    }
+    .TextCard {
+        width: 100%;
+        padding: 0;
+    }
+    .ImageBox {
+        display: none;
+    }
+    .ImageCard {
+        display: none;
+        position: absolute;
+    }
+    .FaqCard {
+        order: 0;
+        margin-top: 225px;
+        margin-right: 20px;
+        margin-left: 15px;
+        width: 100vw;
+        padding: 110px 20px 100px;
+        height: 550px;
+    }
+    .MobileImage {
+        position: absolute;
+        display: flex;
+        top: 70px;
+        left: 45px;
+        order: 1;
+    }
+    .MobileBg {
+        position: absolute;
+        display: flex;
+        top: 175px;
+        left: 70px;
+        order: 2;
+    }
+
 
 }

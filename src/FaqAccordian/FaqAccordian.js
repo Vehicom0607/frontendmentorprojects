@@ -60,6 +60,9 @@ class FaqAccordian extends Component {
 
         return (
             <div className={classes.Background}>
+                <Image className={classes.MobileBg} src="/FaqAccordion/bg-pattern-mobile.svg" />
+                <Image className={classes.MobileImage} src="/FaqAccordion/illustration-woman-online-mobile.svg" />
+
                 <Card className={classes.FaqCard}>
                     <div className={classes.ImageCard} />
                     <Image className={classes.ImageBox} src="/FaqAccordion/illustration-box-desktop.svg" alt="Image Box"/>
