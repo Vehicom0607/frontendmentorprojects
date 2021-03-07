@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+.Background {
+    background-color: hsl(210, 46%, 95%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.CardTitle {
+    color: hsl(217, 19%, 35%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+}
+
+.CardText {
+    color: hsl(214, 17%, 51%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+
+.CardFooter {
+    background: none !important ;
+    border: none !important;
+    flex-direction: row;
+}
+
+.Card {
+    margin: auto;
+    border: none !important;
+    border-radius: 15px !important;
+    flex-direction: row !important;
+    width: 42vw;
+}
+
+.CardImg {
+    width: 17vw !important;
+    display: block;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.CardText {
+    width: 20vw;
+    display: block;
+}
+
+.ProfileImage {
+    width: 40px !important;
+    border-radius: 40px !important;
+    float: left;
+
+}
+
+.UserName {
+    color: hsl(217, 19%, 35%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    margin-left: 50px;
+}
+.UserName::after {
+    content: '28 Jun 2020';
+    color: hsl(214, 17%, 51%);
+    font-size: 12px;
+    display: block;
+}
+
+.Share {
+
+    width: 5% !important;
+    float: right;
+    display: block;
+    position: absolute;
+    right: 15px;
+    bottom: 50px
+}
