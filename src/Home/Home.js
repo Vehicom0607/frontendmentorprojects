@@ -20,6 +20,24 @@ const projectList = [
         description: 'Your challenge is to build out this article preview component and get it looking as close to the design as possible.',
         link: 'https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT/hub/article-preview-component-tk2i-ZzFv',
         solutionlink: '/article-preview'
+    },
+    {
+        name: 'UNTITLED',
+        description: 'UNTITLED',
+        link: 'https://www.frontendmentor.io/challenges/',
+        solutionlink: '/'
+    },
+    {
+        name: 'UNTITLED',
+        description: 'UNTITLED',
+        link: 'https://www.frontendmentor.io/challenges/',
+        solutionlink: '/'
+    },
+    {
+        name: 'UNTITLED',
+        description: 'UNTITLED',
+        link: 'https://www.frontendmentor.io/challenges/',
+        solutionlink: '/'
     }
 ]
 

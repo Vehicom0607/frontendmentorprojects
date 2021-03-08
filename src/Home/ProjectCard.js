@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 const ProjectCard = props => {
     return (
         <Col>
-            <Card>
+            <Card className="my-2">
                 <Card.Header>
                     {props.name}
                 </Card.Header>
