@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300;1,400&display=swap');
+
+.Background {
+    background-color: hsl(0, 100%, 74%);
+    background-image: url("images/bg-intro-desktop.png");
+
+}
+
+.Row {
+    height: 100vh;
+}
+
+.Header {
+    font-family: 'Poppins', Arial;
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+
+}
+
+.Description {
+    font-family: 'Poppins', Arial;
+    color: white;
+    font-size: 16px;
+}
+
+.SpecialOffer {
+    font-weight: 500;
+}
+
+.DiscountCard {
+    border-radius: 10px;
+    background-color: hsl(248, 32%, 49%) !important;
+    color: white;
+    width: 100%;
+}
+
+.RegisterCard {
+    border-radius: 10px;
+    width: 100%;
+    font-family: 'Poppins', Arial;
+}
+
+.FormInput {
+    font-size: 16px !important;
+    font-family: 'Poppins', Arial;
+    height: 50px;
+    font-weight: 500;
+}
+

@@ -5,6 +5,7 @@ import React from "react";
 import FaqAccordian from "./Challenges/FaqAccordian/FaqAccordian";
 import ProfileCard from "./Challenges/ProfileCard/ProfileCard";
 import ArticlePreview from "./Challenges/ArticlePreview/ArticlePreview";
+import IntroSignupForm from "./Challenges/IntroSignupForm/IntroSignupForm";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
               <Route path="/profile-card" component={ProfileCard}/>
               <Route path="/faq-accordion" component={FaqAccordian} />
               <Route path="/article-preview" component={ArticlePreview} />
+              <Route path='/intro-signup-form' component={IntroSignupForm} />
               <Route exact path="/" component={Home} />
           </Switch>
       </div>

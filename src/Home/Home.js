@@ -22,10 +22,10 @@ const projectList = [
         solutionlink: '/article-preview'
     },
     {
-        name: 'UNTITLED',
-        description: 'UNTITLED',
-        link: 'https://www.frontendmentor.io/challenges/',
-        solutionlink: '/'
+        name: 'Intro component with sign-up form',
+        description: 'Your challenge is to build out this landing page and get it looking as close to the design as possible.',
+        link: 'https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1/hub/intro-component-with-signup-form-ca46nZDWb',
+        solutionlink: '/intro-signup-form'
     },
     {
         name: 'UNTITLED',
