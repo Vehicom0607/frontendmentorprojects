@@ -36,7 +36,7 @@
 }
 
 .RegisterCard {
-    border-radius: 10px;
+    border-radius: 10px !important;
     width: 100%;
     font-family: 'Poppins', Arial;
 }
@@ -44,7 +44,54 @@
 .FormInput {
     font-size: 16px !important;
     font-family: 'Poppins', Arial;
-    height: 50px;
-    font-weight: 500;
+    height: 55px !important;
+    font-weight: 500 !important;
 }
 
+.FormInput:focus {
+    border-color: hsl(249, 10%, 26%) !important;
+    box-shadow: none !important;
+}
+
+.SubmitButton {
+    border: none !important;
+    border-radius: 5px;
+    height: 50px;
+    background-color: hsl(154, 59%, 51%) !important;
+}
+
+.SubmitButton:hover {
+    background-color: hsl(156, 100%, 29%) !important;
+}
+
+.Disclaimer {
+    color: hsl(246, 25%, 77%);
+}
+
+.TermsConditions {
+    text-decoration: none !important;
+    color: hsl(0, 100%, 74%);
+}
+
+.Invalid {
+    border: 1px solid red !important;
+}
+
+.InvalidText {
+    color: red;
+    font-size: 10px;
+    margin-left: auto;
+}
+
+@media (max-width: 450px) {
+    .Header {
+        padding-top: 100px !important;
+        text-align: center !important;
+    }
+    .Description {
+        text-align: center;
+    }
+    .Background {
+        height: 150vh !important;
+    }
+}
