@@ -30,16 +30,16 @@ class IntroSignupForm extends Component {
     validationHandler = (event, field) => {
         console.log(event.target.value.length)
         if (field === 'first') {
-            this.setState({first: {value: event.target.value, valid: event.target.value.length > 0? true: false, changed: true}})
+            this.setState({first: {value: event.target.value, valid: event.target.value.length > 0, changed: true}})
         }
         if (field === 'last') {
-            this.setState({last: {value: event.target.value, valid: event.target.value.length > 0? true: false, changed: true}})
+            this.setState({last: {value: event.target.value, valid: event.target.value.length > 0, changed: true}})
         }
         if (field === 'email') {
-            this.setState({email: {value: event.target.value, valid: event.target.value.length > 5? true: false, changed: true}})
+            this.setState({email: {value: event.target.value, valid: event.target.value.length > 0, changed: true}})
         }
         if (field === 'password') {
-            this.setState({password: {value: event.target.value, valid: event.target.value.length > 0? true: false, changed: true}})
+            this.setState({password: {value: event.target.value, valid: event.target.value.length > 0, changed: true}})
         }
     }
 
