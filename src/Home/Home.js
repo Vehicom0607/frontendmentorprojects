@@ -28,10 +28,10 @@ const projectList = [
         solutionlink: '/intro-signup-form'
     },
     {
-        name: 'UNTITLED',
-        description: 'UNTITLED',
-        link: 'https://www.frontendmentor.io/challenges/',
-        solutionlink: '/'
+        name: 'Interactive Pricing Component',
+        description: 'Your challenge is to build out this interactive pricing component and get it looking as close to the design as possible.',
+        link: 'https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8/hub/interactive-pricing-component-gcMTo_4T9',
+        solutionlink: '/ipc'
     },
     {
         name: 'UNTITLED',
