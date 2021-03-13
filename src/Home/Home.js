@@ -54,7 +54,7 @@ const Home = () => {
             <div className="text-center p-3 m-3">
                 <Container>
                     <h1 className="display-4">FrontEndMentor.io Solutions in React</h1>
-                    <p className="lead" >This was created to improve my CSS and React skills at the same time. These problems are from frontendmentor.io and they are a quite good resource in learning css.</p>
+                    <p className="lead" >This was created to improve my CSS and React skills at the same time. These problems are from frontendmentor.io and they are a quite good resource in learning css. Hello if you have somehow found this.</p>
                     <Row xs="1" md="2" lg="3">
                         {renderProjectList}
                     </Row>
