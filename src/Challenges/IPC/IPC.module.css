@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
 
-.background {
+.Background {
     background-image: url("./images/bg-pattern.svg");
     background-color: hsl(230, 100%, 99%);
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@
     height: 100vh;
     width: 100vw;
     font-family: 'Manrope', Arial;
-
+    display: flex;
 }
 
 .Header {
@@ -17,6 +17,8 @@
     font-size: 32px;
     font-weight: 800;
     color: hsl(227, 35%, 25%);
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
 .Description {
@@ -27,3 +29,51 @@
     color: hsl(225, 20%, 60%);
 }
 
+
+
+.Head {
+    background-image: url("./images/pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 145px;
+    margin: 5rem 0;
+}
+
+
+.Card {
+    width: 500px;
+    margin: auto;
+    display: flex;
+}
+
+.PageView {
+    font-family: 'Manrope', Arial;
+    font-size: 15px;
+    font-weight: 600;
+    color: hsl(225, 20%, 60%);
+    margin-bottom: 0 !important;
+}
+
+
+.Pricing {
+    font-family: 'Manrope', Arial;
+    font-size: 15px;
+    font-weight: 600;
+    color: hsl(225, 20%, 60%);
+    align-self: center;
+}
+
+.Price {
+    font-weight: 800;
+    color: hsl(227, 35%, 25%);
+    font-size: 48px;
+}
+
+.CardHead {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+}
