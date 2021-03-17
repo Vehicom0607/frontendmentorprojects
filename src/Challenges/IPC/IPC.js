@@ -1,8 +1,17 @@
 import React, {Component} from 'react';
-import {Button, Card, Container} from "react-bootstrap";
+import {Button, Card, Container, Form} from "react-bootstrap";
 import classes from './IPC.module.css'
 
 class IPC extends Component {
+
+    state = {
+        value: 16
+    }
+
+    onChangeSlider = (event) => {
+        this.setState({value: event.target.value})
+    }
+
     render() {
         return (
             <div className={classes.Background}>
@@ -14,11 +23,13 @@ class IPC extends Component {
                     <Card className={classes.Card}>
                         <Card.Body>
                             <div className={classes.CardHead}>
-                                <Card.Text className={classes.PageView}>100k PAGEVIEWS</Card.Text>
-                                <Card.Text className={classes.Pricing}><span className={classes.Price}>$16.00</span>/month</Card.Text>
+                                <Card.Text className={classes.PageView}>{this.state.value}0k PAGEVIEWS</Card.Text>
+                                <Card.Text className={classes.Pricing}><span className={classes.Price}>${this.state.value}.00</span>/month</Card.Text>
                             </div>
-                            <div>slider</div>
-                            <Card.Text>Montly Billing<span></span>Yearly Billing</Card.Text>
+                            <Form>
+                                <Form.Control className={classes.Slider} value={this.state.value} onChange={this.onChangeSlider} type="range" />
+                            </Form>
+                            <Card.Text className={classes.Switch}>Montly Billing <label className={classes.Toggle}><input type="checkbox" className={classes.ToggleInput} /><span className={classes.ToggleSlider} /></label> Yearly Billing</Card.Text>
                         </Card.Body>
                         <Card.Footer>
                             <Card.Text>Unlimited websites</Card.Text>
