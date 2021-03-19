@@ -34,10 +34,10 @@ const projectList = [
         solutionlink: '/ipc'
     },
     {
-        name: 'UNTITLED',
-        description: 'UNTITLED',
-        link: 'https://www.frontendmentor.io/challenges/',
-        solutionlink: '/'
+        name: 'Blogr Landing page',
+        description: 'Your challenge is to build out this landing page and get it looking as close to the design as possible.',
+        link: 'https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP/hub/blogr-landing-page-QxD7LTHB2',
+        solutionlink: '/blogr'
     }
 ]
 
