@@ -7,13 +7,14 @@ import ProfileCard from "./Challenges/ProfileCard/ProfileCard";
 import ArticlePreview from "./Challenges/ArticlePreview/ArticlePreview";
 import IntroSignupForm from "./Challenges/IntroSignupForm/IntroSignupForm";
 import IPC from "./Challenges/IPC/IPC";
-
+import Blogr from "./Challenges/blogr/blogr";
 function App() {
 
 
   return (
       <div>
           <Switch>
+              <Route path="/blogr" component={Blogr} />
               <Route path="/ipc" component={IPC} />
               <Route path="/profile-card" component={ProfileCard}/>
               <Route path="/faq-accordion" component={FaqAccordian} />
