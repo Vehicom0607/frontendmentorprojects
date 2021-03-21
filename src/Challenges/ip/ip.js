@@ -60,7 +60,7 @@ class IPTracker extends Component {
                         <InputGroup className="my-3" style={{marginRight: 'auto', marginLeft: 'auto', maxWidth: '450px'}}>
                                 <FormControl value={this.state.ip} onChange={this.onChangeIPHandler} placeholder="IP Address" aria-label="IP Address" className={classes.Form} style={{borderBottomLeftRadius: '15px', borderTopLeftRadius: '15px', fontSize: '18px', padding: '25px'}} />
                                 <InputGroup.Append>
-                                    <Button aria-label="Find IP Button" style={{borderTopRightRadius: '15px', borderBottomRightRadius: '15px', padding: '5px 20px'}} className={classes.Submit} variant="secondary" onClick={() => this.updateDataHandler()}><span className={classes.RightArrow} /></Button>
+                                    <Button aria-label="IP Button" style={{borderTopRightRadius: '15px', borderBottomRightRadius: '15px', padding: '5px 20px'}} className={classes.Submit} variant="secondary" onClick={() => this.updateDataHandler()}><span className={classes.RightArrow} /></Button>
                                 </InputGroup.Append>
                         </InputGroup>
                         <Card style={{borderRadius: '15px', display: 'flex', margin: '40px 0'}} className={classes.Card}>
