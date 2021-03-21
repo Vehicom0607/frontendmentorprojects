@@ -8,12 +8,14 @@ import ArticlePreview from "./Challenges/ArticlePreview/ArticlePreview";
 import IntroSignupForm from "./Challenges/IntroSignupForm/IntroSignupForm";
 import IPC from "./Challenges/IPC/IPC";
 import Blogr from "./Challenges/blogr/blogr";
+import IPTracker from "./Challenges/ip/ip";
 function App() {
 
 
   return (
       <div>
           <Switch>
+              <Route path="/ip" component={IPTracker} />
               <Route path="/blogr" component={Blogr} />
               <Route path="/ipc" component={IPC} />
               <Route path="/profile-card" component={ProfileCard}/>

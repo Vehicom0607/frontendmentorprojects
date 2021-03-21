@@ -38,6 +38,24 @@ const projectList = [
         description: 'Your challenge is to build out this landing page and get it looking as close to the design as possible.',
         link: 'https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP/hub/blogr-landing-page-QxD7LTHB2',
         solutionlink: '/blogr'
+    },
+    {
+        name: 'IP Address Tracker',
+        description: 'Your challenge is to build out this IP Address Tracker app and get it looking as close to the design as possible. To get the IP Address locations, you\'ll be using the IP Geolocation API by IPify. To generate the map, we recommend using LeafletJS',
+        link: 'https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0',
+        solutionlink: '/ip'
+    },
+    {
+        name: 'Untitled',
+        description: 'Description',
+        link: 'https://www.frontendmentor.io/',
+        solutionlink: '/'
+    },
+    {
+        name: 'Untitled',
+        description: 'Description',
+        link: 'https://www.frontendmentor.io/',
+        solutionlink: '/'
     }
 ]
 

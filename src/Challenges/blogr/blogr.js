@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import classes from './blogr.module.css'
-import {Navbar, NavDropdown, Nav, NavLink, Button, Container, Row, Col} from "react-bootstrap";
+import {Navbar, NavDropdown, Nav, NavLink, Button, Container} from "react-bootstrap";
 
 class Blogr extends Component {
     render() {
