@@ -45,17 +45,7 @@ class Blogr extends Component {
                     </div>
                     </Container>
                 </div>
-                <section className="text-center my-5">
-                    <h2>Designed for the future</h2>
-                    <Row>
-                        <Col>
-                            text
-                        </Col>
-                        <Col>
-                            imag
-                        </Col>
-                    </Row>
-                </section>
+
             </React.Fragment>
         );
     }
