@@ -44,7 +44,7 @@ class IPTracker extends Component {
                 map.flyTo([response.data.location.lat, response.data.location.lng])
             })
             .catch(error => {
-                alert("What did you do to reach this error: " + error)
+                alert("If this says Network Error, disable your adblocker. Error: " + error)
             })
     }
 
