@@ -11,7 +11,6 @@ class Countdown extends Component {
     }
 
     handleTimer = () => {
-        console.log(this.state)
         let update = true
         let currentTime = {...this.state}
         if (this.state.seconds === 0) {
