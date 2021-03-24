@@ -46,10 +46,10 @@ const projectList = [
         solutionlink: '/ip'
     },
     {
-        name: 'Untitled',
-        description: 'Description',
-        link: 'https://www.frontendmentor.io/',
-        solutionlink: '/'
+        name: 'Countdown',
+        description: 'Your challenge is to build out this countdown timer and get it looking as close to the design as possible.',
+        link: 'https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-/hub/launch-countdown-timer-WV1ooOyj-',
+        solutionlink: '/countdown'
     },
     {
         name: 'Untitled',

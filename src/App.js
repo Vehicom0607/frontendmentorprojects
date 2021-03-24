@@ -9,12 +9,14 @@ import IntroSignupForm from "./Challenges/IntroSignupForm/IntroSignupForm";
 import IPC from "./Challenges/IPC/IPC";
 import Blogr from "./Challenges/blogr/blogr";
 import IPTracker from "./Challenges/ip/ip";
+import Countdown from "./Challenges/countdown/countdown";
 function App() {
 
 
   return (
       <div>
           <Switch>
+              <Route path="/countdown" component={Countdown} />
               <Route path="/ip" component={IPTracker} />
               <Route path="/blogr" component={Blogr} />
               <Route path="/ipc" component={IPC} />
