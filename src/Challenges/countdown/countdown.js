@@ -39,7 +39,7 @@ class Countdown extends Component {
         }
         this.setState(currentTime)
         if (update) {
-            setTimeout(() => this.handleTimer(), 1)
+            setTimeout(() => this.handleTimer(), 1000)
         }
     }
 
