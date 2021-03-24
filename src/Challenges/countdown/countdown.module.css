@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+.Background {
+    height: 100vh;
+    width: 100vw;
+    background: url("./images/bg-stars.svg"), linear-gradient(to top, #1E1E28, #241C2B);
+}
+
+.Mountains {
+    position: absolute;
+    height: 192px;
+    width: 100%;
+    background: url("./images/pattern-hills.svg") no-repeat;
+    background-size: cover;
+    bottom: 0 !important;
+}
+
+.Header {
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 100px 0;
+    letter-spacing: 0.25rem;
+}
+
+.Timers {
+    display: flex;
+    flex-direction: row;
+}
+
+.Timer {
+    position: relative;
+    font-family: 'Red Hat Text', sans-serif;
+    flex: 1;
+    color: #F55C80;
+    font-size: 96px;
+    text-align: center;
+    z-index: 2;
+}
+
+.Box {
+    position: absolute;
+    width: 150px;
+    height: 75px;
+
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+
+}
+
+.BoxTop {
+    top: -32px;
+    z-index: -1;
+}
+
+.BoxBottom {
+    bottom: 32px;
+    z-index: -2;
+}
+
+.OverlayBox {
+    top: -32px;
+    z-index: 3 !important;
+}
+
+.BoxTop::before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #2C2C44;
+    border-radius: 5px 5px 15px 15px;
+
+}
+.BoxBottom::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #34364F;
+    border-radius: 15px 15px 5px 5px;
+}
+
+.OverlayBox::before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px 5px 15px 15px;
+
+}
+
+.Description {
+    flex: 1;
+    font-size: 14px !important;
+    padding: 10px 0;
+    letter-spacing: 0.25rem;
+    color: #707088;
+}
+
+.Descriptions {
+    display: flex;
+    position: relative;
+    font-family: 'Red Hat Text', sans-serif;
+    color: #F55C80;
+    text-align: center;
+}
+
