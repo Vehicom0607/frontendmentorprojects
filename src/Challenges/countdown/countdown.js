@@ -10,6 +10,45 @@ class Countdown extends Component {
         seconds: 0
     }
 
+    handleTimer = () => {
+        console.log(this.state)
+        let update = true
+        let currentTime = {...this.state}
+        if (this.state.seconds === 0) {
+            if (this.state.minutes === 0) {
+                if (this.state.hours === 0) {
+                    if (this.state.days === 0) {
+                        this.setState({days: 0, hours: 0, minutes: 0, seconds: 0})
+                        update = false
+                    } else {
+                        currentTime.days--;
+                        currentTime.hours = 23;
+                        currentTime.minutes = 59;
+                        currentTime.seconds = 59;
+                    }
+                } else {
+                    currentTime.hours--;
+                    currentTime.minutes = 59;
+                    currentTime.seconds = 59;
+                }
+            } else {
+                currentTime.minutes--;
+                currentTime.seconds = 59;
+            }
+        } else {
+            currentTime.seconds--;
+        }
+        this.setState(currentTime)
+        if (update) {
+            setTimeout(() => this.handleTimer(), 1)
+        }
+    }
+
+    componentDidMount() {
+        this.handleTimer()
+    }
+
+
     render() {
         return (
             <div className={classes.Background}>
